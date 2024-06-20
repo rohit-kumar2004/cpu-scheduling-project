@@ -19,7 +19,7 @@ The project provides an implementation of four CPU scheduling algorithms and eva
 - Visual Studio Code (VS Code) or any C++ IDE
 - C++ compiler (e.g., GCC or MSVC)
 ### Steps of usage:
-1. Open the project in your IDE
+1. Open the project("main.cpp") file  in your IDE
 2. Compile the C++ program
 3. Input process data
  - Specify the number of processes.
