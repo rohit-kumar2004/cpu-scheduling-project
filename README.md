@@ -18,7 +18,13 @@ The project provides an implementation of four CPU scheduling algorithms and eva
 - Visual Studio Code (VS Code) or any C++ IDE
 - C++ compiler (e.g., GCC or MSVC)
 #### Steps of usage:
-1 Clone the repository:
+1. Open the project in your IDE
+2. Compile the C++ program
+3. Input process data
+ - Specify the number of processes.
+- Enter the arrival time and burst time for each process.
+- Enter the time quantum for the Round Robin algorithm.
+  4. View the results
 
 
 
