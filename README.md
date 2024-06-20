@@ -17,7 +17,8 @@ The project provides an implementation of four CPU scheduling algorithms and eva
 #### Prerequisites
 - Visual Studio Code (VS Code) or any C++ IDE
 - C++ compiler (e.g., GCC or MSVC)
-### Steps of usage
+#### Steps of usage:
+1 Clone the repository:
 
 
 
