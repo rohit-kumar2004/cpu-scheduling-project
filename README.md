@@ -4,6 +4,7 @@ This project implements and evaluates four CPU scheduling algorithms: First-Come
 * Introduction
 * Features
 * Installation
+* steps of usage
 
 ### Introduction
 The project provides an implementation of four CPU scheduling algorithms and evaluates them based on average waiting time, average turnaround time, CPU utilization, and throughput. It determines the optimal algorithm for a given set of processes and displays the results.
@@ -17,14 +18,14 @@ The project provides an implementation of four CPU scheduling algorithms and eva
 #### Prerequisites
 - Visual Studio Code (VS Code) or any C++ IDE
 - C++ compiler (e.g., GCC or MSVC)
-#### Steps of usage:
+### Steps of usage:
 1. Open the project in your IDE
 2. Compile the C++ program
 3. Input process data
  - Specify the number of processes.
 - Enter the arrival time and burst time for each process.
 - Enter the time quantum for the Round Robin algorithm.
-  4. View the results
+4. View the results
 
 
 
