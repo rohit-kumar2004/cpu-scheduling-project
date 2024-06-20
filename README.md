@@ -5,6 +5,8 @@ This project implements and evaluates four CPU scheduling algorithms: First-Come
 * Features
 * Installation
 * steps of usage
+* Theory
+
 
 ### Introduction
 The project provides an implementation of four CPU scheduling algorithms and evaluates them based on average waiting time, average turnaround time, CPU utilization, and throughput. It determines the optimal algorithm for a given set of processes and displays the results. Each algorithm is designed to manage processes efficiently by prioritizing tasks based on arrival times and burst durations.
@@ -26,7 +28,20 @@ The project provides an implementation of four CPU scheduling algorithms and eva
 - Enter the arrival time and burst time for each process.
 - Enter the time quantum for the Round Robin algorithm.
 4. View the results
-  
+  ### Theory
+  My program implements and evaluates four fundamental CPU scheduling algorithms: FirstCome, First-Served (FCFS), Shortest Job First (SJF), Shortest Remaining Time First (SRTF), 
+and Round Robin (RR). Each algorithm is designed to manage processes efficiently by 
+prioritizing tasks based on arrival times and burst durations. The project collects 
+user input, including process details and scheduling parameters. The implementation includes 
+dedicated functions for each algorithm, computing key metrics such as average waiting time, 
+average turnaround time, CPU utilization, and throughput. These metrics serve as 
+benchmarks for comparing algorithm performance. The isBetter function facilitates this 
+comparison by prioritizing algorithms based on metrics hierarchy: waiting time, turnaround 
+time, CPU utilization, and throughput. Results are compiled into a comparison matrix, 
+allowing for a systematic evaluation of each algorithm's effectiveness under varying 
+workloads. The optimal algorithm is determined based on which achieves the best overall 
+performance across these metrics.
+
   
 
 
